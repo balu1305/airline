@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    border: border-box;
+  }
+  
+  .nav-bar{
+    background-color: #0b283d;
+    height: 3.6rem;
+    display: flex;
+    color: white;
+  }
+
+  .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: center;
+    gap: 0.313rem;
+ }
+ .logo i{
+   font-size: 1.562rem;
+ }
+ 
+ .airstar{
+   width: 8.813rem;
+   height: 3.125rem;
+   font-family: 'Marck Script';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2.5rem;
+   line-height: 3.125rem;
+   color: #FFFFFF;
+ }
+ 
+header{
+    display: flex;
+}
+
+ .display{
+    height: 37rem;
+    width: 40rem;
+    background-color: #1E426E;
+    background-image: url(Frequent_Flyer.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-right: 0.7rem;
+    padding: 2.5rem;
+ }
+
+ .display a{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 1.9rem;
+    font-family: Jost;
+ }
+
+ .display p{
+    color: #FFFFFF;
+    font-size: 1.06rem;
+    font-family: Mada;
+ }
+
+ .signin{
+    height: 42rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .maindiv a{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    font-family: Mada;
+ }
+
+ .value{
+    display: flex;
+    flex-direction: column;
+    margin: 1.9rem 0rem 1.3rem 0rem;
+ }
+
+ .holder{
+    font-size: 1.1rem;
+    padding: 0.7rem 8rem 0.7rem 0.7rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+ }
+
+ .continue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.4rem;
+    width: 22.2rem;
+    background-color: #1E426E;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
+ }
+
+ .register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.4rem;
+    width: 22.2rem;
+    background-color: white;
+    font-size: 0.95rem;
+    border-radius: 0.4rem;
+    border: 2px solid black;
+    margin: 1rem 0rem 0.7rem 0rem;
+ }
+
+ .register a{
+    font-size: 1rem;
+ }
+
+ .other-option{
+    margin: 1.2rem 0rem 0.7rem 7.5rem;
+    color: rgb(90, 90, 90);
+ }
+
+.footer{
+    margin: 9rem 0rem 0rem 0rem;
+}
+
+ .footer a{
+    font-size: 0.9rem;
+ }

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airline Management</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="main.js" defer></script>
+</head>
+<body> 
+    <header>
+      <div class="nav-bar">
+        <div class="nav-logo">
+          <div class="logo">
+            <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i>
+            <div class="airstar">Airstar</div>
+          </div>
+        </div>
+        <div class="menu-icons">
+         <a href="Sign-in page/" class="mi">Profile</a>
+         <a class="mi">Notications</a>
+         <a href="#home" class="mi">Home</a> 
+        </div>
+        </div> 
+    </header>
+    <section-bar>
+      <div id="home" class="main-section">
+        <div class="body-image">
+          <div class="text">
+           <div class="text1">Time for your</div>
+          <div class="text2">next journey</div>
+          <div class="text3">Let's Fly Away in Style!</div>
+          <a href="#down" class="booking border">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section-bar>
+    <info-bar>
+      <div id="down" class="main-div">
+          <div class="text4">
+            Millions of cheap flights. One simple search.
+          </div>
+          <div class="text5">
+            Discover the world at your fingertips. Our flight booking service opens doors to global destinations, making travel dreams a reality with<br> convenience and ease<br />
+          </div>
+          <div class="details">
+            <div class="trip">
+              <form class="bar1">
+                <label for="id1">
+                  <input type="radio" value="one way" name="Class" id="id1">One-Way
+                </label>
+                <label for="id2">
+                  <input type="radio" value="round trip" name="Class" id="id2">Round Trip
+                </label>  
+              </form> 
+            </div>
+              <div class="search-bar">
+              <div class="bar">
+                <label for="location1">
+                  <p>From</p>
+                  <input type="text" id="location1" name="name" class="pick" placeholder="Pick the location">
+              </label>
+              </div>
+              <div class="bar">
+                <label for="location2">
+                  <p>To</p>
+                  <input type="text" id="location2" name="name" class="pick" placeholder="Pick the location">
+              </label>
+              </div>
+              <div class="bar">
+                <label for="date1">
+                  <p>Departure</p>
+                  <input type="date" id="date1" name="name" class="pick" placeholder="Pick the date">
+              </label>
+              </div>
+              <div class="bar">
+                <label for="date2">
+                  <p>Return</p>
+                  <input type="date" id="date2" name="name" class="pick" placeholder="Pick the date">
+              </label>
+              </div>
+              <!-- <div class="bar">
+                  <div class="sub-head">
+                    Traveller
+                  </div>
+                <div class="pick">
+                  Pick your class
+                </div>
+              </div> -->
+              <button class="magnify border">
+                  <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+              </button>
+              </div>
+              <div class="selection">
+                <form class="bar2">
+                  <select name="select-class" class="bar2">
+                    <option value="economy">Economy</option>
+                    <option value="business">Business</option>
+                    <option value="first-class">First Class</option>
+                    <option value="premium-economy">Premium Economy</option>
+                  </select>
+                </form>
+                <form class="bar3">
+                  <input type="number" min="1" class="no_ofPassengers" placeholder="Adult passengers">
+                  <input type="number" min="1"
+                   class="no_ofPassengers" placeholder="Children passengers">
+                </form> 
+                <form class="bar4">
+                  <div class="outline">
+                    <div class="heading">Special Fares</div>
+                    <div class="content">
+                  <label for="id3">
+                    <input type="checkbox" value="student" name="Class1" id="id3">Student
+                  </label>
+                  <label for="id4">
+                    <input type="checkbox" value="senior-citizen" name="Class1" id="id4">Senior Citizen
+                  </label>  
+                </div>
+                </div>
+                </form>     
+              </div>
+          </div>    
+      </div>
+    </info-bar>
+    <footer>
+      <div class="offers-section">
+        <div class="img">
+          <div class="container">
+            <p>Dream Destinations Around the World</p>
+            <div class="slider-wrapper">
+              <button id="prev-slide" class="slide-button material-symbols-rounded">
+                chevron_left
+              </button>
+              <ul class="image-list">
+                <a class="image-item border2" href="https://www.tripadvisor.in/Attractions-g187147-Activities-Paris_Ile_de_France.html" style="background-image: url(Paris.jpg); background-size: cover;" alt="img-1"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g186338-London_England-Vacations.html" style="background-image: url(London.jpg); background-size: cover;" alt="img-2"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g187427-Spain-Vacations.html" style="background-image: url(Spain.jpg); background-size: cover;" alt="img-3"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g255055-Australia-Vacations.html" style="background-image: url(Austrlia.jpg); background-size: cover;" alt="img-4"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g293953-Maldives-Vacations.html" style="background-image: url(Maldives.jpg); background-size: cover;" alt="img-5"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g187768-Italy-Vacations.html" style="background-image: url(Italy.jpg); background-size: cover;" alt="img-6"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g255104-New_Zealand-Vacations.html" style="background-image: url(New\ Zealand.jpg); background-size: cover;" alt="img-7"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g293915-Thailand-Vacations.html" style="background-image: url(Thailand.jpg); background-size: cover;" alt="img-8"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g28932-Hawaii-Vacations.html" style="background-image: url(Hawaii.jpg); background-size: cover;" alt="img-9"></a>
+                <a class="image-item border2" href="https://www.tripadvisor.in/Tourism-g191-United_States-Vacations.html" style="background-image: url(USA.jpg); background-size: cover;" alt="img-10"></a>
+              </ul>
+              <button id="next-slide" class="slide-button material-symbols-rounded">
+                chevron_right
+              </button>
+            </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div id="about" class="scrollbar-thumb"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="image-info">
+        <div class="dbl-img">
+          <img class="img1" src="Photo tour.jpg" alt="image">
+          <img class="img2" src="Cabin Crew.jpg" alt="image">
+        </div>
+        <div class="info-page">
+          <a>Unaccompained Minor Lounge</a>
+          <div class="box1">
+           <div class="box3">
+            <div class="head">Experience Tranquility</div>
+            <p>Serenity Haven offers a tranquil escape, <br>featuring comfortable seating caliming <br>ambience, and attentive service.</p>
+            </div>
+            <div class="box4">
+              <div class="head">Elevate Your Experience</div>
+              <p>Designed for discerning travellers, this exclusive<br>lounge offers premium amenities, assistance,<br> and private workspaces.</p>
+            </div>
+          </div>
+          <div class="box1">
+            <div class="box3">
+              <div class="head">A Welcoming Space</div>
+             <p>Creating a family-friendly atmosphere, The<br>Family Zone is the perfect haven for <br>parents and children.</p>
+             </div>
+             <div class="box4">
+              <div class="head">A Culinary Delight</div>
+              <p>Immerse yourself in a world of flavors, offering<br>international cuisines, gourmet dishes, and<br>carefully curated bevarages.</p>
+            </div>
+           </div>
+        </div>
+      </div>
+      <div class="final">
+        <div class="div1">
+          <a>Airstar</a>
+          <div class="text-para">Where Excellence Takes Flight. With a strong commitment to <br>customer satisfaction and a passion for air travel, Airstar <br>Airlines offers exceptional service and seamless journeys.<br><br>
+            From friendly smiles to state-of-the-art aircraft, we connect<br> the world, ensuring safe, comfortable, and unforgettable <br>experiences.</text-para>
+        </div>
+        </div>
+        <div class="div2">
+          <p>Information</p>
+          <ul class="list2">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#down">Offers</a>
+          </ul>
+        </div>
+        <div class="div2">
+          <p>Contact</p>
+          <ul class="list3">
+            <a>Support</a>
+            <a>Media</a>
+            <a>Socials</a>
+          </ul>
+        </div>
+      </div>
+      <hr style="color: #ffffff;">
+      <div class="footer">
+        <div class="copyright">
+          <a>Copyright<span>&#169</span> 2024 Web Design Mastery. All rights Reserved.</a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
